@@ -34,6 +34,8 @@ public class ContaTerminal {
 
         System.out.println("Por favor, insira o saldo: ");
         saldo = ler.nextDouble();
+
+        ler.close();
     }
 
     private void exibirBoasVindas(){
